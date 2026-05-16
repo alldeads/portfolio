@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="John Rexter Flores — Full-stack developer building thoughtful web experiences."
+    />
+    <title>John Rexter Flores · Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Outfit:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="grain" aria-hidden="true"></div>
+    <header class="site-header">
+      <a href="#" class="logo" aria-label="Home">JF</a>
+      <nav class="nav" aria-label="Primary">
+        <a href="#about">About</a>
+        <a href="#work">Work</a>
+        <a href="#skills">Skills</a>
+        <a href="#resume">Resume</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button
+        class="menu-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="mobile-nav"
+        aria-label="Open menu"
+      >
+        <span></span>
+        <span></span>
+      </button>
+    </header>
+
+    <nav id="mobile-nav" class="mobile-nav" aria-label="Mobile" hidden>
+      <a href="#about">About</a>
+      <a href="#work">Work</a>
+      <a href="#skills">Skills</a>
+      <a href="#resume">Resume</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <main>
+      <section class="hero" id="top">
+        <p class="eyebrow reveal">Available for opportunities</p>
+        <h1 class="hero-title reveal">
+          <span class="line">John Rexter Flores</span>
+          <span class="line hero-sub">builds products people</span>
+          <span class="line hero-sub"><em>actually use.</em></span>
+        </h1>
+        <p class="hero-lead reveal">
+          Full-stack developer with a focus on clean interfaces, reliable APIs,
+          and shipping fast without cutting corners.
+        </p>
+        <div class="hero-actions reveal">
+          <a class="btn btn-primary" href="#work">View selected work</a>
+          <a class="btn btn-ghost" href="#contact">Get in touch</a>
+        </div>
+        <div class="hero-meta reveal">
+          <span>Based in Philippines</span>
+          <span class="dot" aria-hidden="true">·</span>
+          <span>Remote-friendly</span>
+        </div>
+      </section>
+
+      <section class="stats section" aria-label="Experience highlights">
+        <ul class="stats-grid">
+          <li class="stat reveal">
+            <p class="stat-number" aria-label="48 plus projects delivered">
+              <span class="stat-count" data-target="48">0</span
+              ><span class="stat-suffix">+</span>
+            </p>
+            <p class="stat-label">Projects delivered</p>
+          </li>
+          <li class="stat reveal">
+            <p class="stat-number" aria-label="32 plus clients served">
+              <span class="stat-count" data-target="32">0</span
+              ><span class="stat-suffix">+</span>
+            </p>
+            <p class="stat-label">Clients served</p>
+          </li>
+          <li class="stat reveal">
+            <p class="stat-number" aria-label="24 plus applications built">
+              <span class="stat-count" data-target="24">0</span
+              ><span class="stat-suffix">+</span>
+            </p>
+            <p class="stat-label">Applications built</p>
+          </li>
+          <li class="stat reveal">
+            <p class="stat-number" aria-label="16 plus vibe coded projects">
+              <span class="stat-count" data-target="16">0</span
+              ><span class="stat-suffix">+</span>
+            </p>
+            <p class="stat-label">Vibe-coded projects</p>
+          </li>
+        </ul>
+      </section>
+
+      <section class="about section" id="about">
+        <div class="section-label reveal">01 — About</div>
+        <div class="about-grid">
+          <h2 class="section-title reveal">
+            Turning complex problems into simple, durable software.
+          </h2>
+          <div class="about-copy reveal">
+            <p>
+              I’m a developer who enjoys the full stack — from database design
+              and backend services to polished front-end experiences. I’ve
+              shipped dashboards, APIs, mobile-adjacent web apps, and internal
+              tools across startups and established teams.
+            </p>
+            <p>
+              I care about performance, accessibility, and maintainable code.
+              When I’m not coding, I’m usually exploring new frameworks, refining
+              workflows, or contributing to side projects.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="work section" id="work">
+        <div class="section-header">
+          <div class="section-label reveal">02 — Work</div>
+          <h2 class="section-title reveal">Selected projects</h2>
+        </div>
+        <ul class="project-list">
+          <li class="project-card reveal">
+            <a
+              href="https://www.apsystems.com.sg/"
+              class="project-link"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div class="project-top">
+                <span class="project-badge">Recent</span>
+                <span class="project-arrow" aria-hidden="true">↗</span>
+              </div>
+              <h3 class="project-name">Periscope · APS</h3>
+              <p class="project-desc">
+                Corporate site for Advanced Processing Systems — payments
+                technology for banks and FIs, featuring Periscope data
+                visualization and scheme cost analytics.
+              </p>
+              <ul class="tag-list">
+                <li>FinTech</li>
+                <li>React</li>
+                <li>Data Analytics</li>
+              </ul>
+            </a>
+          </li>
+          <li class="project-card reveal">
+            <a
+              href="https://anindilyakwa.com.au/"
+              class="project-link"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div class="project-top">
+                <span class="project-badge">Recent</span>
+                <span class="project-arrow" aria-hidden="true">↗</span>
+              </div>
+              <h3 class="project-name">ALC</h3>
+              <p class="project-desc">
+                Public-facing platform for the Anindilyakwa Land Council —
+                culture, land access, royalty development, and community
+                services across the Groote Archipelago.
+              </p>
+              <ul class="tag-list">
+                <li>Web</li>
+                <li>CMS</li>
+                <li>Community</li>
+              </ul>
+            </a>
+          </li>
+          <li class="project-card reveal">
+            <a
+              href="https://connect.corp.org.au/"
+              class="project-link"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div class="project-top">
+                <span class="project-badge">Recent</span>
+                <span class="project-arrow" aria-hidden="true">↗</span>
+              </div>
+              <h3 class="project-name">CORP Connect</h3>
+              <p class="project-desc">
+                Connect portal for CORP — a streamlined web experience for
+                members and organizational workflows.
+              </p>
+              <ul class="tag-list">
+                <li>Web App</li>
+                <li>Portal</li>
+                <li>Enterprise</li>
+              </ul>
+            </a>
+          </li>
+          <li class="project-card reveal">
+            <a
+              href="https://orochinajewelry.com/"
+              class="project-link"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div class="project-top">
+                <span class="project-badge">Recent</span>
+                <span class="project-arrow" aria-hidden="true">↗</span>
+              </div>
+              <h3 class="project-name">Oro China Jewelry</h3>
+              <p class="project-desc">
+                E-commerce storefront for the Philippines’ premier gold and
+                fine jewelry brand — catalog, collections, and online retail
+                since 1967.
+              </p>
+              <ul class="tag-list">
+                <li>E-commerce</li>
+                <li>WooCommerce</li>
+                <li>Retail</li>
+              </ul>
+            </a>
+          </li>
+        </ul>
+      </section>
+
+      <section class="skills section" id="skills">
+        <div class="section-label reveal">03 — Skills</div>
+        <div class="skills-grid">
+          <div class="skill-group reveal">
+            <h3>Frontend</h3>
+            <ul class="skill-pills">
+              <li>React.js</li>
+              <li>Vue.js</li>
+              <li>Next.js</li>
+              <li>Nuxt.js</li>
+              <li>TypeScript</li>
+              <li>CSS / Tailwind</li>
+              <li>React Native / Expo</li>
+            </ul>
+          </div>
+          <div class="skill-group reveal">
+            <h3>Backend</h3>
+            <ul class="skill-pills">
+              <li>Python / Django</li>
+              <li>PHP / Laravel</li>
+              <li>Ruby / Rails</li>
+              <li>Go / Gin</li>
+              <li>Node.js</li>
+              <li>REST & GraphQL</li>
+              <li>PostgreSQL & MySQL</li>
+            </ul>
+          </div>
+          <div class="skill-group reveal">
+            <h3>Tools</h3>
+            <ul class="skill-pills">
+              <li>Git & CI/CD</li>
+              <li>Docker</li>
+              <li>Vercel</li>
+              <li>Netlify</li>
+              <li>Firebase</li>
+              <li>AWS</li>
+              <li>Lightsail</li>
+              <li>Testing & observability</li>
+            </ul>
+          </div>
+          <div class="skill-group reveal">
+            <h3>AI</h3>
+            <ul class="skill-pills">
+              <li>Cursor</li>
+              <li>Copilot</li>
+              <li>Replit</li>
+              <li>Lovable</li>
+              <li>OpenAI</li>
+              <li>Claude</li>
+              <li>Gemini</li>
+              <li>Grok</li>
+              <li>Perplexity</li>
+              <li>Sage</li>
+              <li>DeepSeek</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="resume section" id="resume">
+        <div class="section-label reveal">04 — Resume</div>
+        <div class="resume-card reveal">
+          <div class="resume-copy">
+            <h2 class="section-title">Grab my resume</h2>
+            <p class="resume-lead">
+              A one-page overview of my experience, recent projects, and
+              technical skills — ready to share with recruiters and hiring
+              managers.
+            </p>
+          </div>
+          <div class="resume-actions">
+            <a
+              class="btn btn-primary"
+              href="resume.pdf"
+              download="John-Rexter-Flores-Resume.pdf"
+            >
+              Download PDF
+            </a>
+            <a
+              class="btn btn-ghost"
+              href="resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              View in browser
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact section" id="contact">
+        <div class="section-label reveal">05 — Contact</div>
+        <h2 class="contact-title reveal">
+          Let’s build something<br />
+          <em>worth shipping.</em>
+        </h2>
+        <p class="contact-lead reveal">
+          Open to freelance, contract, and full-time roles. Tell me about your
+          project — I usually reply within a day.
+        </p>
+        <div class="contact-links reveal">
+          <a class="contact-link" href="mailto:johnrexter.flores@gmail.com">
+            johnrexter.flores@gmail.com
+          </a>
+          <a
+            class="contact-link"
+            href="https://github.com/alldeads"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            GitHub
+          </a>
+          <a
+            class="contact-link"
+            href="https://www.linkedin.com/in/john-rexter-flores-61b495101/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            LinkedIn
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>© <span id="year"></span> John Rexter Flores</p>
+      <a href="#top" class="back-top">Back to top ↑</a>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
